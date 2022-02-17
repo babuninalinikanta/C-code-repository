@@ -53,6 +53,7 @@ namespace Csharp
             Console.Write("Book Name:\t{0}", database.bookname);
             Console.Write("\nBook Price:\t{0}", database.price);
             Console.Write("\nBook Category:\t{0}", database.category);
+            Console.WriteLine("\nHappy coding");
 
             Console.ReadLine();
             
