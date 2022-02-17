@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{188757A5-B6B9-42BC-AC64-6A383336F86E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Csharp</RootNamespace>
+    <AssemblyName>Csharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Csharp.Structure_demo</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Area of circle.cs" />
+    <Compile Include="Area of rectangle.cs" />
+    <Compile Include="Area of triangle.cs" />
+    <Compile Include="Arithmetic operators.cs" />
+    <Compile Include="Assignment operators.cs" />
+    <Compile Include="Basic algebra.cs" />
+    <Compile Include="Block statement demo.cs" />
+    <Compile Include="Break statement demo.cs" />
+    <Compile Include="Checked statement demo.cs" />
+    <Compile Include="Comparison operators.cs" />
+    <Compile Include="Continue statement demo.cs" />
+    <Compile Include="Day.cs" />
+    <Compile Include="Display of name.cs" />
+    <Compile Include="Empty statement demo.cs" />
+    <Compile Include="Enumeration demo.cs" />
+    <Compile Include="Even and Odd number check.cs" />
+    <Compile Include="Even and odd number checking.cs" />
+    <Compile Include="goto statement demo.cs" />
+    <Compile Include="if else demo.cs" />
+    <Compile Include="Library book availability.cs" />
+    <Compile Include="Lock statement demo.cs" />
+    <Compile Include="Logical NOT operator demo.cs" />
+    <Compile Include="Logical operator2.cs" />
+    <Compile Include="Logical operators.cs" />
+    <Compile Include="Logical XOR operator.cs" />
+    <Compile Include="Multiplication table.cs" />
+    <Compile Include="Number addition.cs" />
+    <Compile Include="Number of 1%27s.cs" />
+    <Compile Include="Power calculation.cs" />
+    <Compile Include="Power calculation2.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return statement demo.cs" />
+    <Compile Include="Reverse of a number.cs" />
+    <Compile Include="Structure demo.cs" />
+    <Compile Include="Student details.cs" />
+    <Compile Include="Sum of digits in a number.cs" />
+    <Compile Include="Swapping of two numbers.cs" />
+    <Compile Include="Switch case demo.cs" />
+    <Compile Include="Tax calculation.cs" />
+    <Compile Include="throw statement demo.cs" />
+    <Compile Include="Unary operator%28decrement%29.cs" />
+    <Compile Include="Unary operator%28Increment%29.cs" />
+    <Compile Include="Unchecked statement demo.cs" />
+    <Compile Include="User details.cs" />
+    <Compile Include="User mailing details.cs" />
+    <Compile Include="using statement demo.cs" />
+    <Compile Include="Vowel checking.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+E:\Complete C# tutorial\Csharp\Csharp\bin\Debug\Csharp.exe.config
+E:\Complete C# tutorial\Csharp\Csharp\bin\Debug\Csharp.exe
+E:\Complete C# tutorial\Csharp\Csharp\bin\Debug\Csharp.pdb
+E:\Complete C# tutorial\Csharp\Csharp\obj\Debug\Csharp.csprojResolveAssemblyReference.cache
+E:\Complete C# tutorial\Csharp\Csharp\obj\Debug\Csharp.exe
+E:\Complete C# tutorial\Csharp\Csharp\obj\Debug\Csharp.pdb
